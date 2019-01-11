@@ -2,9 +2,9 @@
 
 A simple library that provides standard Unicode [emoji](http://en.wikipedia.org/wiki/Emoji) support across all platforms.
 
-**Twemoji v2.3** adheres to the [Unicode 10.0 draft spec](http://unicode.org/versions/Unicode10.0.0/) and supports the [Emoji 5.0 draft spec](http://unicode.org/reports/tr51/proposed.html)
+**Twemoji v11.2** adheres to the [Unicode 11.0 spec](https://unicode.org/versions/Unicode11.0.0/) and supports the [Emoji 11.0 spec](https://www.unicode.org/reports/tr51/)
 
-The Twemoji library offers support for **2,661** emojis, including skin tone and gender modifiers. 
+The Twemoji library offers support for **2,841** emojis, including skin tone and gender modifiers.
 
 #### Please note
 The files in the root folder in this project are deprecated and listed for CDN and historical reasons.
@@ -17,7 +17,7 @@ The folks over at [MaxCDN](https://www.maxcdn.com) have graciously provided CDN 
 
 Use the following in the `<head>` tag of your HTML document(s):
 ```html
-<script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.3.0"></script>
+<script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.2"></script>
 ```
 
 ## Breaking changes in V2
@@ -319,10 +319,10 @@ cd twemoji
 npm install
 
 # generate 2/twemoji*.js files
-./2/utils/generate
+./2/scripts/generate
 ```
 
-If you'd like to test and/or propose some changes to the V2 library please change the `./2/utils/generate` file at its end so that everything will be generated properly once launched.
+If you'd like to test and/or propose some changes to the V2 library please change the `./2/scripts/generate` file at its end so that everything will be generated properly once launched.
 
 
 ## Attribution Requirements
@@ -344,6 +344,7 @@ However, we consider the guide a bit onerous and as a project, will accept a men
 
 ## Committers and Contributors
 * Bryan Haggerty (Twitter)
+* Nathan Downs (Twitter)
 * Tom Wuttke (ex-Twitter)
 * Andrea Giammarchi (ex-Twitter)
 * Joen Asmussen (WordPress)
@@ -356,7 +357,7 @@ The rules for contributing are available in the `CONTRIBUTING.md` file.
 Thank you to all of our [contributors](https://github.com/twitter/twemoji/graphs/contributors).
 
 ## License
-Copyright 2017 Twitter, Inc and other contributors
+Copyright 2018 Twitter, Inc and other contributors
 
 Code licensed under the MIT License: http://opensource.org/licenses/MIT
 
